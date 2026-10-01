@@ -2,6 +2,8 @@
 
 A Pi plugin that shows the English readability grade of the final assistant reply in the footer.
 
+![Pi footer showing Hemingway: Grade 7](assets/hemingway-footer.png)
+
 ## Features
 
 - Displays `Hemingway: Grade N` using Hemingway's document-grade formula.
