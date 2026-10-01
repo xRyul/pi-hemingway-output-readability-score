@@ -1,0 +1,17 @@
+{
+  "name": "pi-hemingway-output-readability-score",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "One local readability grade for Pi's final assistant output, shown in the footer.",
+  "license": "MIT",
+  "author": "xryul",
+  "repository": { "type": "git", "url": "git+https://github.com/xRyul/pi-hemingway-output-readability-score.git" },
+  "homepage": "https://github.com/xRyul/pi-hemingway-output-readability-score#readme",
+  "bugs": { "url": "https://github.com/xRyul/pi-hemingway-output-readability-score/issues" },
+  "engines": { "node": ">=24.2.0" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "keywords": ["pi-package", "pi-extension"],
+  "pi": { "extensions": ["./index.ts"] },
+  "files": ["index.ts", "readability.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test index.test.mjs" }
+}
